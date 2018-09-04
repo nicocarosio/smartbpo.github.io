@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <title>Smartbilidade</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--- Links-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<body>
+<!-- Container Menu -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#empresa">EMPRESA</a></li>
+          <li><a href="#valores">VALORES</a></li>
+          <li><a href="#produtos">PRODUTOS</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Container Pantalla de Inicio -->
+  <div class="jumbotron text-center">
+      <img src="/images/lamparas.svg">
+      <h1><span id="verde">SMART</span>BP</h1>
+      <p>Contabilidade Inteligente</p>
+    </div>
+
+    <!-- Container Empresa -->
+    <div id="empresa" class="container-fluid bg-grey">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2>Sobre a empresa</h2>
+          <h4>Titulo ..</h4>
+          <p>detalle de lo que quieran decir acerca de la empresa</p>
+          <button class="btn btn-default btn-lg">Entre em contato</button>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-signal logo"></span>
+        </div>
+      </div>
+    </div>
+
+  <!-- Container Valores -->
+  <div id="valores" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe logo"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>Nossos Valores</h2>
+        <h4><strong>MISSÃO:</strong> Nossa missão..</h4>
+        <p><strong>Visão:</strong>A nossa visão..</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container Productos -->
+  <div id="produtos" class="container-fluid text-center bg-grey">
+    <h2>PRODUTOS</h2>
+    <h4>O que oferecemos</h4>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-off logo-small"></span>
+        <h4>ESTABILIDADE</h4>
+        <p> lalal...</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <h4>CRESCIMIENTO</h4>
+        <p>lalalalalaa..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <h4>TAREFA CONCLUÍDA</h4>
+        <p>Llalalala..</p>
+      </div>
+      </div>
+      <br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <h4>SEGURANÇA</h4>
+        <p>lalalala..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <h4>CERTIFICADO</h4>
+        <p>lalalal..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <h4>FIRMEZA</h4>
+        <p>lalalalal.</p>
+      </div>
+    </div>
+</div>
+
+<!-- Container Contacto-->
+<div id="contato" class="container-fluid">
+  <h2 class="text-center">CONTATO</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Entre em contato e entraremos em contato com você em até 24 horas.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Rua lalaa</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 12434564554</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> contact@smartbp.com.br</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comentários" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container  Footer-->
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>by Nico Carosio</p>
+</footer>
+
+<!-- Smooth Scrolling-->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
