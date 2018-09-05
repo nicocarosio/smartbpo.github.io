@@ -29,6 +29,25 @@ h4 {
   margin-bottom: 30px;
 }
 
+/*  Icons  ++++++++++++*/
+.logo {
+  color: #51b853;
+  font-size: 200px;
+}
+
+.logo-med {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #51b853;
+}
+
+.logo-small {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #51b853;
+}
+
+
 /* Menu  ++++++++++++*/
 
 .navbar {
@@ -67,15 +86,7 @@ h4 {
   padding: 60px 50px;
 }
 
-.logo {
-  color: #51b853;
-  font-size: 200px;
-}
 
-.logo-small {
-  color: #51b853;
-  font-size: 50px;
-}
 
 #verde {
   font-family: Helvetica;
@@ -92,12 +103,4 @@ img {
 
 .bg-grey {
   background-color: #f6f6f6;
-}
-
-/*  Footer  ++++++++++++*/
-
-footer .glyphicon {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #51b853;
 }

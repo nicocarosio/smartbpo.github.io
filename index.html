@@ -82,17 +82,17 @@
     <br>
     <div class="row">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-off logo-small"></span>
+        <span class="glyphicon glyphicon-off logo-med"></span>
         <h4>ESTABILIDADE</h4>
         <p> lalal...</p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <span class="glyphicon glyphicon-heart logo-med"></span>
         <h4>CRESCIMIENTO</h4>
         <p>lalalalalaa..</p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <span class="glyphicon glyphicon-lock logo-med"></span>
         <h4>TAREFA CONCLUÍDA</h4>
         <p>Llalalala..</p>
       </div>
@@ -100,48 +100,36 @@
       <br><br>
     <div class="row">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <span class="glyphicon glyphicon-leaf logo-med"></span>
         <h4>SEGURANÇA</h4>
         <p>lalalala..</p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <span class="glyphicon glyphicon-certificate logo-med"></span>
         <h4>CERTIFICADO</h4>
         <p>lalalal..</p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <span class="glyphicon glyphicon-wrench logo-med"></span>
         <h4>FIRMEZA</h4>
         <p>lalalalal.</p>
       </div>
     </div>
 </div>
 
-<!-- Container Contacto-->
+
+<!-- Container Contato -->
 <div id="contato" class="container-fluid">
-  <h2 class="text-center">CONTATO</h2>
   <div class="row">
-    <div class="col-sm-5">
-      <p>Entre em contato e entraremos em contato com você em até 24 horas.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Rua lalaa</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 12434564554</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> contact@smartbp.com.br</p>
+    <div class="col-sm-8">
+      <h2>CONTATO</h2>
+      <h4>Puede contactarnos de varias maneras...Titulo ..</h4>
+      <p><span class="glyphicon glyphicon-map-marker logo-small"></span> Rua lalaa</p>
+      <p><span class="glyphicon glyphicon-phone logo-small"></span> +00 12434564554</p>
+      <p><span class="glyphicon glyphicon-envelope logo-small"></span> contact@smartbp.com.br</p>
     </div>
-    <div class="col-sm-7">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comentários" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Enviar</button>
-        </div>
-      </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-phone-alt logo"></span>
     </div>
   </div>
 </div>
@@ -149,39 +137,14 @@
 <!-- Container  Footer-->
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
+    <span class="glyphicon glyphicon-chevron-up logo-med"></span>
   </a>
-  <p>by Nico Carosio</p>
+  <p>made with <span class="glyphicon glyphicon-heart-empty"></span> by Nico Carosio,<a href="nicocarosio@gmail.com">
+          <span class="glyphicon glyphicon-envelope"></span></a>. Icons by: <a href="https://glyphicons.com">glyphicons</a></p>
 </footer>
 
-<!-- Smooth Scrolling-->
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-   // Make sure this.hash has a value before overriding default behavior
-  if (this.hash !== "") {
 
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
-
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-</script>
 <script src="js/main.js" type="text/javascript"></script>
 </body>
 
